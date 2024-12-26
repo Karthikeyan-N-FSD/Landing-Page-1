@@ -576,3 +576,9 @@ header .auth-buttons .signup {
     cursor: pointer;
     margin-right: 9px;
 }
+
+
+.line{
+        border-color: #999999;
+        border-width: 1px;
+}

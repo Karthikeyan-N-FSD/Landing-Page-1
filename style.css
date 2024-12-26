@@ -552,12 +552,11 @@ header .auth-buttons .signup {
     border-radius: 10px;
     width: 674px;
     align-items: center;
-    /* Adjust width as needed */
-}
+    }
 
 .input-container input {
     border: none;
-    /*outline: none;*/
+    outline: none;
     flex: 1;
     height: 68px;
     font-family: Poppins;

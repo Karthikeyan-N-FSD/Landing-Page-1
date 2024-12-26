@@ -454,46 +454,111 @@ header .auth-buttons .signup {
     top: -64px;
 }
 
-.update{
+.update {
     text-align: center;
 }
 
-.update .head{
+.update .head {
     font-family: volkhov;
     font-size: 48px;
     font-weight: bold;
 }
 
-.update span{
-color: #FA7436;
+.update span {
+    color: #FA7436;
 }
 
-.blogs{
-display: flex;
+.blogs {
+    display: flex;
 
 }
-.blog{
+
+.blog {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
     width: 270px;
     height: 388px;
-    
+
 }
-.blog h1{
-  font-family: Poppins;  
-  font-size: 18px;
-  font-weight: 600;
-  color: #222222;
+
+.blog h1 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
 }
-.blog p{
+
+.blog p {
     margin: 0px;
     font-family: inter;
     font-size: 16px;
     color: #999999;
 }
-.scribe{
+
+.scribe {
     width: 1170px;
     height: 416px;
+    background-color: #FA7436;
+    text-align: center;
+    border-radius: 16px;
+    position: relative;
+
+}
+
+.scribe h1 {
+    font-family: Volkhov;
+    font-size: 48px;
+    font-weight: bold;
+    max-width: 708px;
+    background-color: transparent;
+    color: white;
+    padding-top: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.scribe .tree {
+    position: absolute;
+    right: 1px;
+    top: 9px;
+    background-color: #FA7436;
+}
+
+.scribe .bott {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: #FA7436;
+    border-radius: 16px;
+
+}
+
+.subscribe-block {
+    display: flex;
+  /*  justify-content: center; */
+    align-items: center; 
+    width: 674px;
+    height: 68px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    font-family: Poppins;
+    font-size: 16px;
+}
+.input-container {
+    display: flex;
+     
+   
+    width: 674px; /* Adjust width as needed */
+    
+}
+.input-container input {
+    border: none;
+    /*outline: none;*/
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    color: #999999
 }

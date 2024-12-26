@@ -6,7 +6,7 @@
 }
 
 .container {
-    margin: 0 auto;
+
     max-width: 1170px;
 
 }
@@ -552,7 +552,7 @@ header .auth-buttons .signup {
     border-radius: 10px;
     width: 674px;
     align-items: center;
-    }
+}
 
 .input-container input {
     border: none;
@@ -578,7 +578,31 @@ header .auth-buttons .signup {
 }
 
 
-.line{
-        border-color: #999999;
-        border-width: 1px;
+.line {
+    border: none;
+    border-bottom: 1px solid rgba(153, 153, 153, .5);
+    margin-bottom: 40px;
+}
+
+.footer-content {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #666666;
+}
+
+.footer-content .copyright {
+    margin: 0;
+}
+
+.footer-content .terms {
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: #666666;
 }

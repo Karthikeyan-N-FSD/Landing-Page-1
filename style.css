@@ -40,7 +40,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #222222;
-    
+
 }
 
 .auth-buttons {
@@ -148,6 +148,7 @@ header .auth-buttons .signup {
     display: inline-block;
     background-color: white;
     line-height: 35px;
+
 }
 
 .dropbtn {
@@ -159,7 +160,7 @@ header .auth-buttons .signup {
     font-size: 16px;
     cursor: pointer;
     display: flex;
-
+    margin: 0;
 }
 
 .dropdown p {
@@ -622,29 +623,76 @@ header .auth-buttons .signup {
 .footer-container {
     margin: 0;
     display: flex;
+    flex-direction: column;
 }
 
 .footer-column {
     display: flex;
-    flex-direction: column;
+
     margin: 0;
     /*flex: 1; 
     margin: 0 15px; */
 }
 
-.footer-title {
+.footer-container p {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+    line-height: 32px;
+}
+
+.social-icons {
+    display: flex;
     margin: 0;
-    font-size: 24px;
-    font-weight: bold;
-    font-family: volkhov;
-    color: #222222;
+    gap: 28px;
+}
+
+
+.social-icon {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444444;
+    text-decoration: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon img {
+    color: #444444;
+    background-color: white;
+}
+
+
+.social-icon:hover {
+    background-color: #FA7436;
+    color: white;
+    transform: scale(1.2);
+    cursor: pointer;
 
 }
 
-.footer-column p {
-    font-size: 14px;
-    color: #666666;
-    line-height: 1.6;
+.social-icon:hover svg {
+    background-color: #FA7436;
+       
+}
+.social-icon:hover svg path {
+    fill: white;
+       
+}
+
+.footer-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #222222;
+
 }
 
 .footer-column ul {
@@ -661,38 +709,4 @@ header .auth-buttons .signup {
     text-decoration: none;
     color: #666666;
     transition: color 0.3s;
-}
-
-.footer-column ul li a:hover {
-    color: #FA7436;
-    /* Highlight color */
-}
-
-.social-icons {
-    display: flex;
-    margin-top: 20px;
-    gap: 15px;
-}
-
-.social-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #EAEAEA;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #666666;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.social-icon.instagram {
-    background-color: #FA7436;
-    color: white;
-}
-
-.social-icon:hover {
-    background-color: #FA7436;
-    color: white;
 }

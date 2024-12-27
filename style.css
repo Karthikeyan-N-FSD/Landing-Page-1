@@ -97,6 +97,7 @@ header .auth-buttons .signup {
 
 .hero .text h1 span {
     color: #FA7436;
+    background-color: transparent;
 }
 
 .hero .text p {
@@ -585,39 +586,12 @@ header .auth-buttons .signup {
     margin-right: 9px;
 }
 
-
-.line {
-    border: none;
-    border-bottom: 1px solid rgba(153, 153, 153, .5);
-    margin-bottom: 40px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 16px;
-    color: #666666;
-}
-
-.footer-content .copyright {
-    margin: 0;
-}
-
-.footer-content .terms {
-    margin: 0;
-    text-decoration: none;
-    cursor: pointer;
-    color: #666666;
-}
-
 .footer-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     text-align: left;
+    margin-top: 120px;
+    margin-bottom: 40px;
 }
 
 .footer-container {
@@ -626,20 +600,13 @@ header .auth-buttons .signup {
     flex-direction: column;
 }
 
-.footer-column {
-    display: flex;
-
-    margin: 0;
-    /*flex: 1; 
-    margin: 0 15px; */
-}
-
 .footer-container p {
     font-family: poppins;
     font-size: 16px;
     font-weight: 500;
     color: #666666;
     line-height: 32px;
+    margin-bottom: 20px;
 }
 
 .social-icons {
@@ -647,7 +614,6 @@ header .auth-buttons .signup {
     margin: 0;
     gap: 28px;
 }
-
 
 .social-icon {
     margin: 0;
@@ -668,7 +634,6 @@ header .auth-buttons .signup {
     background-color: white;
 }
 
-
 .social-icon:hover {
     background-color: #FA7436;
     color: white;
@@ -679,11 +644,19 @@ header .auth-buttons .signup {
 
 .social-icon:hover svg {
     background-color: #FA7436;
-       
+
 }
+
 .social-icon:hover svg path {
     fill: white;
-       
+
+}
+
+.siteMap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    gap: 130px;
 }
 
 .footer-title {
@@ -692,21 +665,50 @@ header .auth-buttons .signup {
     font-weight: 500;
     font-family: Poppins;
     color: #222222;
+    margin-bottom: 32px;
+}
+
+.siteMap ul {
+    list-style: none;
 
 }
 
-.footer-column ul {
-    list-style: none;
-    padding: 0;
+.siteMap ul li {
+    margin-bottom: 16px;
+}
+
+.siteMap ul li a {
+    text-decoration: none;
+    color: #666666;
+    font-family: Poppins;
+    font-size: 18px;
+
+}
+
+.line {
+    border: none;
+    border-bottom: 1px solid rgba(153, 153, 153, .5);
+    margin-bottom: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 48px;
+}
+
+.footer-content .copyright {
     margin: 0;
 }
 
-.footer-column ul li {
-    margin-bottom: 10px;
-}
-
-.footer-column ul li a {
+.footer-content .terms {
+    margin: 0;
     text-decoration: none;
+    cursor: pointer;
     color: #666666;
-    transition: color 0.3s;
 }

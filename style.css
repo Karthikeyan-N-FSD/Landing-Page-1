@@ -490,6 +490,7 @@ header .auth-buttons .signup {
     width: 270px;
     height: 388px;
     margin: 0;
+    cursor: pointer;
 }
 
 .blog h1 {
@@ -627,6 +628,7 @@ header .auth-buttons .signup {
     color: #444444;
     text-decoration: none;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .social-icon img {
@@ -638,7 +640,7 @@ header .auth-buttons .signup {
     background-color: #FA7436;
     color: white;
     transform: scale(1.2);
-    cursor: pointer;
+    
 
 }
 

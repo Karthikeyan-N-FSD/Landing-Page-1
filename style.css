@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #FEFCFB;
-}
+    }
 
 .container {
 
@@ -701,16 +701,16 @@ header .auth-buttons .signup {
     font-family: Poppins;
     font-size: 16px;
     color: #666666;
-    margin-bottom: 48px;
-}
+    margin-bottom: 48px; 
+   }
 
 .footer-content .copyright {
     margin: 0;
-}
+    }
 
 .footer-content .terms {
     margin: 0;
     text-decoration: none;
     cursor: pointer;
     color: #666666;
-}
+    }
